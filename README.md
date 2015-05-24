@@ -1,6 +1,4 @@
-# Getting-and-Cleaning-Data
-
-## Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . 
 Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
@@ -27,12 +25,15 @@ Aim of the projec is to create an R script called run_analysis.R that does the f
 
 ## run_analysis.R Overview
 data.table - library used to process the large data sets
+
 dplyr - library use to process data frame like objects
 
 The scripts starts by loading all the respective data files into data frames (meta data, test data, training data)
+
 The script then follows the steps outlined in the project, steps 1:5
 
 1. rbind is used to join the associated data sets
+2. 
 
 
 
