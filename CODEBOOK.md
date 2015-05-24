@@ -15,9 +15,10 @@
 - 'train/y_train.txt': Training labels.
 
 ##Tidy Output Data Set
-- Tidy.txt is a space separated data file, with a readable header row for the columns names. The file containst the standard deviation and mean of the data from the input data files.
+- File tidy.txt is a space separated data file, with a readable header row for the columns names. 
+- The file contains the standard deviation and mean of the data from the input data files.
 
-##Tidy Output Columns
+##Output Columns
 - "Subject"
 - "Activity"
 - "TimeBodyAccelerometerMean()-X"
