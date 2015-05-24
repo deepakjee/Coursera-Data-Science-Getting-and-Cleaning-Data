@@ -28,11 +28,11 @@ Aim of the projec is to create an R script called run_analysis.R that does the f
 2. dplyr - library use to process data frame like objects
 3. The scripts starts by loading all the respective data files into data frames (meta data, test data, training data)
 4. The script then follows the steps outlined in the project, steps 1:5
-5 - rbind is used to combine the associated data sets and columns named
-6 - extract only the relevant columns using grep and append the activity and subject columns
-7 - lookup and map the column numerics to more readable activity names 
-8 - substitute labels with more readable versions
-9 - calculate the mean of each variable and write out the resultant file
+5. rbind is used to combine the associated data sets and columns named
+6. extract only the relevant columns using grep and append the activity and subject columns
+7. lookup and map the column numerics to more readable activity names 
+8. substitute labels with more readable versions
+9. calculate the mean of each variable and write out the resultant file
 
 
 
