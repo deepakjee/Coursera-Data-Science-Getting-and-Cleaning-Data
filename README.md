@@ -24,17 +24,15 @@ Aim of the projec is to create an R script called run_analysis.R that does the f
 4. README.md
 
 ## B- Overview run_analysis.R 
-data.table - library used to process the large data sets
-
-dplyr - library use to process data frame like objects
-
-- The scripts starts by loading all the respective data files into data frames (meta data, test data, training data)
-- The script then follows the steps outlined in the project, steps 1:5
-- 1 - rbind is used to combine the associated data sets and columns named
-- 2 - extract only the relevant columns using grep and append the activity and subject columns
-- 3 - lookup and map the column numerics to more readable activity names 
-- 4 - substitute labels with more readable versions
-- 5 - calculate the mean of each variable and write out the resultant file
+1. data.table - library used to process the large data sets
+2. dplyr - library use to process data frame like objects
+3. The scripts starts by loading all the respective data files into data frames (meta data, test data, training data)
+4. The script then follows the steps outlined in the project, steps 1:5
+5 - rbind is used to combine the associated data sets and columns named
+6 - extract only the relevant columns using grep and append the activity and subject columns
+7 - lookup and map the column numerics to more readable activity names 
+8 - substitute labels with more readable versions
+9 - calculate the mean of each variable and write out the resultant file
 
 
 
